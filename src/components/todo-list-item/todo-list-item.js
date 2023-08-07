@@ -19,12 +19,11 @@ export default class TodoListItem extends Component{
 
       return (
         <span className={classNames}>
-        <span
-          className="todo-list-item-label"
-          onClick={onToggleDone}>
-          {label}
-        </span>
-
+          <span
+            className="todo-list-item-label"
+            onClick={onToggleDone}>
+            {label}
+          </span>
           <div>
               <button type="button"
                       className="btn btn-outline-success btn-sm float-right"
